@@ -111,7 +111,7 @@ public class GameController : MonoBehaviour
 
     bool checkInputChar(char ch)
     {
-        return ((ch >= 'a' && ch <= 'Z') || ch == '.' || ch == ' ' || ch == '_');
+        return ((ch >= 'a' && ch <= 'z') || (ch>='A' &&ch<='Z') || ch == '.' || ch == ' ' || ch == '_');
     }
 //#if UNITY_STANDALONE_WIN
     void Update()
